@@ -1,4 +1,4 @@
-# trabalho-containers
+# go-api
 
 Este repositório contém uma API desenvolvida em Go (Golang) com foco na aplicação da **Clean Architecture** e conteinerização.
 
@@ -38,7 +38,7 @@ O objetivo deste projeto é implementar um CRUD simples e demonstrar como estrut
 Clone o repositório, instale as dependências e utilize o Docker para subir a aplicação:
 
 ```bash
-git clone https://github.com/gaabrielbrocco/trabalho-containers.git
-cd trabalho-containers
+git clone https://github.com/gaabrielbrocco/go-api.git
+cd go-api
 go mod tidy
 docker compose up --build -d
