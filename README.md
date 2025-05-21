@@ -1,6 +1,6 @@
 # trabalho-containers
 
-Este repositório contém uma API desenvolvida em Go (Golang) com foco na aplicação da **Clean Architecture** (Ports and Adapters)
+Este repositório contém uma API desenvolvida em Go (Golang) com foco na aplicação da **Clean Architecture** e conteinerização.
 
 # 👤 Integrantes do Grupo
 
@@ -8,7 +8,7 @@ Bernardo Sozo Fattini, Gabriel Brocco de Oliveira, Gabriel Pradegan Orsatto, Jea
 
 ## 📌 Objetivo
 
-O objetivo deste projeto é implementar um CRUD simples e demonstrar como estruturar uma aplicação de forma organizada e desacoplada, colocando em prática a arquitetura limpa no desenvolvimento de APIs com Go.
+O objetivo deste projeto é implementar um CRUD simples e demonstrar como estruturar uma aplicação de forma organizada e desacoplada, colocando em prática a arquitetura hexagonal (Ports and Adapters) no desenvolvimento de APIs com Go.
 
 ## 📁 Estrutura do Projeto
 
