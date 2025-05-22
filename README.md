@@ -26,19 +26,19 @@ O objetivo deste projeto é implementar um CRUD simples e demonstrar como estrut
 ## 📚 Bibliotecas Utilizadas
 
 - pq - github.com/lib/pq – Driver PostgreSQL para Go.
-
 - chi - github.com/go-chi/chi – Um router leve e rápido para construção de APIs HTTP em Go.
-
 - migrate - github.com/golang-migrate/migrate – Ferramenta de migração de banco de dados.
-
 - Viper - github.com/spf13/viper – Biblioteca para configuração de aplicações (JSON, TOML, YAML, env, etc).
 
-## ▶️ Como Executar
+## 📝 Arquivo `.env`
 
-Clone o repositório, instale as dependências e utilize o Docker para subir a aplicação:
+Antes de executar o projeto, é necessário criar um arquivo `.env` na raiz do projeto com as seguintes variáveis de ambiente:
 
-```bash
-git clone https://github.com/gaabrielbrocco/go-api.git
-cd go-api
-go mod tidy
-docker compose up --build -d
+```env
+DB_HOST=db
+DB_PORT=5433
+DB_USER=postgres
+DB_PASSWORD=postgres
+DB_NAME=banco
+DB_SSL_MODE=disable
+HTTP_PORT=8080
