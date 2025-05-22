@@ -43,11 +43,7 @@ cd go-api
 Antes de executar o projeto, é necessário criar um arquivo `.env` na raiz do projeto com as seguintes variáveis de ambiente:
 
 ```env
-DB_HOST=db
-DB_PORT=5433
-DB_USER=postgres
 DB_PASSWORD=postgres
-DB_NAME=banco
 DB_SSL_MODE=disable
 HTTP_PORT=8080
 ```
