@@ -30,6 +30,14 @@ O objetivo deste projeto é implementar um CRUD simples e demonstrar como estrut
 - migrate - github.com/golang-migrate/migrate – Ferramenta de migração de banco de dados.
 - Viper - github.com/spf13/viper – Biblioteca para configuração de aplicações (JSON, TOML, YAML, env, etc).
 
+## ▶️ Como Executar
+
+Clone o repositório:
+
+```bash
+git clone https://github.com/gaabrielbrocco/trabalho-containers.git
+cd go-api
+```
 ## 📝 Arquivo `.env`
 
 Antes de executar o projeto, é necessário criar um arquivo `.env` na raiz do projeto com as seguintes variáveis de ambiente:
@@ -42,3 +50,9 @@ DB_PASSWORD=postgres
 DB_NAME=banco
 DB_SSL_MODE=disable
 HTTP_PORT=8080
+```
+## ✅ Instale as dependências e utilize o Docker para subir a aplicação:
+
+```bash
+go mod tidy
+docker compose up --build -d
