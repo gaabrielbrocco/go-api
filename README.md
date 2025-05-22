@@ -35,7 +35,7 @@ O objetivo deste projeto é implementar um CRUD simples e demonstrar como estrut
 Clone o repositório:
 
 ```bash
-git clone https://github.com/gaabrielbrocco/trabalho-containers.git
+git clone https://github.com/gaabrielbrocco/go-api.git
 cd go-api
 ```
 ## 📝 Arquivo `.env`
